@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/DHST" android:title="导航视图"></item>
+    <item android:id="@+id/YJST" android:title="夜景视图"></item>
+    <item android:id="@+id/BZST" android:title="标准视图"></item>
+    <item android:id="@+id/WXST" android:title="卫星视图"></item>
+    <item android:id="@+id/JTST" android:title="交通试图"></item>
+
+</menu>

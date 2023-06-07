@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/LXDT" android:title="离线地图" />
+    <item android:id="@+id/RZCX" android:title="日志查询" />
+    <item android:id="@+id/YHGL" android:title="用户管理" />
+</menu>

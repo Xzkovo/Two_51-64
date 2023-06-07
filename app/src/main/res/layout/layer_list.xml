@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_dh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#55539E"
+        android:paddingLeft="40dp"
+        android:paddingTop="10dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="10dp"
+        android:text="导航视图"
+        android:textColor="#000" />
+    <TextView
+        android:id="@+id/tv_yj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#55539E"
+        android:paddingLeft="40dp"
+        android:paddingTop="10dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="10dp"
+        android:text="夜景视图"
+        android:textColor="#000" />
+    <TextView
+        android:id="@+id/tv_bz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#55539E"
+        android:paddingLeft="40dp"
+        android:paddingTop="10dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="10dp"
+        android:text="标准视图"
+        android:textColor="#000" />
+    <TextView
+        android:id="@+id/tv_wx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#55539E"
+        android:paddingLeft="40dp"
+        android:paddingTop="10dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="10dp"
+        android:text="卫星视图"
+        android:textColor="#000" />
+    <TextView
+        android:id="@+id/tv_jt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#55539E"
+        android:paddingLeft="40dp"
+        android:paddingTop="10dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="10dp"
+        android:text="交通视图"
+        android:textColor="#000" />
+</LinearLayout>
