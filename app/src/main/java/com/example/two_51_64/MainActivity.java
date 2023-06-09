@@ -52,6 +52,12 @@ public class MainActivity extends AppCompatActivity {
                             case R.id.YHGL:
                                 myclass = MainActivity_54.class;
                                 break;
+                            case R.id.GJCX:
+                                myclass = MainActivity_55.class;
+                                break;
+                            case R.id.SSJT:
+                                myclass = MainActivity_56.class;
+                                break;
                         }
                         if (myclass != null) {
                             Intent intent = new Intent(MainActivity.this, myclass);

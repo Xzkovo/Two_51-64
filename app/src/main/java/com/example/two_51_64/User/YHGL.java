@@ -9,6 +9,16 @@ public class YHGL {
     private String registered_time;
     private String tel;
 
+    public boolean isTf() {
+        return tf;
+    }
+
+    public void setTf(boolean tf) {
+        this.tf = tf;
+    }
+
+    private boolean tf = false;
+
     public String getUsername() {
         return username;
     }

@@ -3,4 +3,7 @@
     <item android:id="@+id/LXDT" android:title="离线地图" />
     <item android:id="@+id/RZCX" android:title="日志查询" />
     <item android:id="@+id/YHGL" android:title="用户管理" />
+    <item android:id="@+id/GJCX" android:title="公交查询" />
+    <item android:id="@+id/SSJT" android:title="实时交通" />
+    <item android:id="@+id/HJJC" android:title="环境监测" />
 </menu>

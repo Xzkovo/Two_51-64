@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -12,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.two_51_64.Adapter.RZCX_Adapter;
 import com.example.two_51_64.HTTP.HttpUtil;
-import com.example.two_51_64.User.MyListView;
+import com.example.two_51_64.util.MyListView;
 import com.example.two_51_64.User.RZCX;
 
 import org.json.JSONException;

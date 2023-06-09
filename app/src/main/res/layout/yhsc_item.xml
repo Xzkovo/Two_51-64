@@ -9,9 +9,9 @@
 
     <HorizontalScrollView
         android:id="@+id/hsv"
-        android:scrollbars="none"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -26,7 +26,7 @@
                 android:src="@drawable/touxiang_1" />
 
             <LinearLayout
-                android:layout_width="780dp"
+                android:layout_width="400dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="30dp"
                 android:orientation="vertical">
@@ -64,60 +64,51 @@
 
             </LinearLayout>
 
-           <LinearLayout
-               android:layout_width="250dp"
-               android:layout_height="match_parent"
-               android:orientation="vertical">
-
-               <TextView
-                   android:id="@+id/root"
-                   android:layout_width="250dp"
-                   android:layout_height="50dp"
-                   android:background="#FFEB3B"
-                   android:gravity="center"
-                   android:text="一般管理员"
-                   android:textColor="#000"
-                   android:textSize="30dp" />
-
-               <LinearLayout
-                   android:layout_width="match_parent"
-                   android:layout_height="0dp"
-                   android:gravity="center"
-                   android:layout_weight="1">
-
-                   <Button
-                       android:id="@+id/wdsc"
-                       android:background="@drawable/bj2"
-                       android:textColor="#000"
-                       android:textSize="25dp"
-                       android:layout_width="150dp"
-                       android:layout_height="50dp"
-                       android:text="我的收藏"/>
-
-               </LinearLayout>
-
-
-           </LinearLayout>
-
             <TextView
-                android:id="@+id/sc"
-                android:layout_width="100dp"
+                android:id="@+id/time"
+                android:layout_width="380dp"
                 android:layout_height="match_parent"
-                android:background="#22FF00"
-                android:gravity="center"
-                android:text="收藏"
-                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="2023.6.9"
+                android:textColor="#000"
                 android:textSize="30dp" />
 
-            <TextView
-                android:id="@+id/shanchu"
-                android:layout_width="100dp"
+            <LinearLayout
+                android:layout_width="250dp"
                 android:layout_height="match_parent"
-                android:background="#FF0000"
-                android:gravity="center"
-                android:text="删除"
-                android:textColor="#fff"
-                android:textSize="30dp" />
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/root"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:background="#FFEB3B"
+                    android:gravity="center"
+                    android:text="一般管理员"
+                    android:textColor="#000"
+                    android:textSize="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/wdsc"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/bj2"
+                        android:text="我的收藏"
+                        android:textColor="#000"
+                        android:textSize="25dp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
         </LinearLayout>
 
 
