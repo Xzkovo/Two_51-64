@@ -6,4 +6,6 @@
     <item android:id="@+id/GJCX" android:title="公交查询" />
     <item android:id="@+id/SSJT" android:title="实时交通" />
     <item android:id="@+id/HJJC" android:title="环境监测" />
+    <item android:id="@+id/WZFX" android:title="违章分析" />
+    <item android:id="@+id/WDDY" android:title="我的订阅" />
 </menu>
