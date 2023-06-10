@@ -48,6 +48,7 @@ public class MainActivity_51 extends AppCompatActivity {
     private  int qqq=123;
     private  int aaa=123;
     private  int bbb=123;
+    private  int ccc=123;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
