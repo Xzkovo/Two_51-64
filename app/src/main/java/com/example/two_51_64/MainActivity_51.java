@@ -46,7 +46,7 @@ public class MainActivity_51 extends AppCompatActivity {
     private TextView mXs;
     private List<JWD> jwds;
     private  int qqq=123;
-
+    private  int aaa=123;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
