@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
-        System.out.println(1);
     }
 
     private void initView() {
@@ -36,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
                 if (mDrawer.isDrawerOpen(GravityCompat.START)) {
                     mDrawer.closeDrawer(GravityCompat.START);
                 } else {
-
                     mDrawer.openDrawer(GravityCompat.START);
                 }
                 mNav.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
@@ -65,8 +63,14 @@ public class MainActivity extends AppCompatActivity {
                             case R.id.WZFX:
                                 myclass = MainActivity_58.class;
                                 break;
+                            case R.id.CLWZ:
+                                myclass = MainActivity_59.class;
+                                break;
                             case R.id.WDDY:
                                 myclass = MainActivity_60.class;
+                                break;
+                            case R.id.SHCX:
+                                myclass = MainActivity_61.class;
                                 break;
                         }
                         if (myclass != null) {

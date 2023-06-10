@@ -22,6 +22,21 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity_61"
+            android:exported="false" />
+        <activity
+            android:name=".container.CXJG_59"
+            android:exported="false" />
+        <activity
+            android:name=".container.YHSC_54"
+            android:exported="false" />
+        <activity
+            android:name=".container.SPBF_59"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_59"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity_60"
             android:exported="false" />
         <activity
