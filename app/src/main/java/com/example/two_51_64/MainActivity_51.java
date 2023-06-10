@@ -45,6 +45,7 @@ public class MainActivity_51 extends AppCompatActivity {
     private ImageView mMapMarker;
     private TextView mXs;
     private List<JWD> jwds;
+    private  int qqq=123;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
