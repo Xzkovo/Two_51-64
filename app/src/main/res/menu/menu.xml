@@ -10,4 +10,7 @@
     <item android:id="@+id/CLWZ" android:title="车辆违章" />
     <item android:id="@+id/WDDY" android:title="我的订阅" />
     <item android:id="@+id/SHCX" android:title="生活出行" />
+    <item android:id="@+id/WZLXFX" android:title="违章类型分析" />
+    <item android:id="@+id/LXZS" android:title="旅行助手" />
+    <item android:id="@+id/GSETC" android:title="高速ETC" />
 </menu>

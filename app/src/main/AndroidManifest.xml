@@ -22,6 +22,33 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".container.ETC_ye64"
+            android:exported="false" />
+        <activity
+            android:name=".container.ETC_czjl_64"
+            android:exported="false" />
+        <activity
+            android:name=".container.ETC_cz64"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_64"
+            android:exported="false" />
+        <activity
+            android:name=".container.ZFYM_63"
+            android:exported="false" />
+        <activity
+            android:name=".container.GWC_63"
+            android:exported="false" />
+        <activity
+            android:name=".container.XXXX_63"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_63"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_62"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity_61"
             android:exported="false" />
         <activity

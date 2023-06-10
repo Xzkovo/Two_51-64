@@ -19,7 +19,7 @@
               android:layout_width="30dp"
               android:layout_height="30dp"
               android:layout_gravity="bottom"
-              android:background="@drawable/yuan3"
+              android:background="@drawable/yuan33"
               android:gravity="center"
               android:text="1" />
 

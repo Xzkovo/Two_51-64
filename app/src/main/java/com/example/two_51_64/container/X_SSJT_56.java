@@ -53,10 +53,10 @@ public class X_SSJT_56 extends AppCompatActivity {
             TextView sites = view.findViewById(R.id.site);
             View views = view.findViewById(R.id.view);
             if (i == 0) {
-                number.setBackgroundResource(R.drawable.yuan4);
+                number.setBackgroundResource(R.drawable.yuan44);
                 sites.setTextColor(Color.RED);
             } else {
-                number.setBackgroundResource(R.drawable.yuan3);
+                number.setBackgroundResource(R.drawable.yuan33);
                 sites.setTextColor(Color.BLACK);
             }
             if (i == site.size() - 1){
@@ -76,10 +76,10 @@ public class X_SSJT_56 extends AppCompatActivity {
                         TextView number = view1.findViewById(R.id.number);
                         TextView sites = view1.findViewById(R.id.site);
                         if (finalI == j){
-                            number.setBackgroundResource(R.drawable.yuan4);
+                            number.setBackgroundResource(R.drawable.yuan44);
                             sites.setTextColor(Color.RED);
                         }else {
-                            number.setBackgroundResource(R.drawable.yuan3);
+                            number.setBackgroundResource(R.drawable.yuan33);
                             sites.setTextColor(Color.BLACK);
                         }
                     }
